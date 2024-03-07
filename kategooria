@@ -1,3 +1,0 @@
-CREATE TABLE kategooria(
-    kategooria_id int PRIMARY KEY AUTO_INCREMENT,
-    kategooria_nimi varchar (100));
