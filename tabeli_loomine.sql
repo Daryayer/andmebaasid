@@ -39,3 +39,8 @@ CREATE TABLE tehtud(
     tehtud_kp date,
     retsept_id int,
     FOREIGN KEY (retsept_id) REFERENCES retsept(retsept_id));
+
+
+CREATE TABLE kategooria(
+    kategooria_id int PRIMARY KEY AUTO_INCREMENT,
+    kategooria_nimi varchar (100));
